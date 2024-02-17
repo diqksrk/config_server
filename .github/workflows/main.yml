@@ -23,4 +23,5 @@ jobs:
     # shell 이용해서 하나의 command 수행
     - name: Start xcode build 🛠
       run: |
+        sudo chmod +x ./gradlew
         ./gradlew build
