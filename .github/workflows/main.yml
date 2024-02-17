@@ -24,4 +24,4 @@ jobs:
     - name: Start xcode build 🛠
       run: |
         sudo chmod +x ./gradlew
-        ./gradlew build
+        ./gradlew bootjar
