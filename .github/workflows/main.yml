@@ -23,5 +23,7 @@ jobs:
     # shell 이용해서 하나의 command 수행
     - name: Start xcode build 🛠
       run: |
+        sudo apt update
+        sudo apt install openjdk-17-jdk
         sudo chmod +x ./gradlew
         ./gradlew bootjar
